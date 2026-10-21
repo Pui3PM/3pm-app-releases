@@ -1,9 +1,1 @@
-{
-  "schema": "3pm-app-update/v1",
-  "applicationId": "com.threepm.scanner",
-  "versionCode": 4,
-  "versionName": "0.4-test",
-  "minSdk": 26,
-  "apkSha256": "567ab7bbe9b886055520a5935a9c193676f7eee651b8259cf7d644b5f45b9fa0",
-  "releaseUrl": "https://github.com/Pui3PM/3pm-app-releases/blob/0e0d3d2a9b153dc1ad59496ff10d380992a73814/apks/v0.4-test/3PM_Scanner_Android_0.4_TEST_20261021.apk"
-}
+{"schema":"3pm-app-update/v1","applicationId":"com.threepm.scanner","versionCode":5,"versionName":"0.5-test","minSdk":26,"apkSha256":"b5903dfcef7ec853b3b72ec497eabd636981f76189791a3ff5fe47b4b69b63d0","releaseUrl":"https://github.com/Pui3PM/3pm-app-releases/blob/6bf816b7bb8d892422d667da53a93af9d164ad0e/apks/v0.5-test/3PM_Scanner_Android_0.5_TEST_20261021.apk"}
