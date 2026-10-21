@@ -23,6 +23,11 @@ Colored score entry, manual target drag with a local magnifier, per-spot photo r
 - Optional checks require Internet and Android scheduling; they are not immediate push notifications.
 - The direct-distribution updater is not a Play Store update implementation. A future Play variant needs appropriate update and permission handling.
 
+### Camera scoring limitation (0.5 TEST)
+- Camera suggestions use image-processing heuristics, not a trained AI model. Accuracy has not been verified on real target photos.
+- In an oblique photo, using the apparent ellipse's top/right/bottom/left extrema for calibration can mis-map arrow positions and scores; these are not necessarily the target's physical cardinal points.
+- Check every suggested score against the physical target, especially near scoring lines. If calibration is uncertain, retake a near-front-on photo or use manual/keypad scoring. Accepting a suggestion does not validate its geometry.
+
 ### Other limits
 - Scores and photo positions need user review. Six current recurve face presets; no full MyTargets parity claim. The magnifier is not whole-target pinch zoom.
 - Analyzer direct linking requires compatible LINK10 and session pairing; sessions expire and require re-pairing. No guaranteed arbitrary concurrent-writer merge or zero-touch production enrollment.
